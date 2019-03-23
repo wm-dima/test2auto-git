@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/timetowe/repositories/test2auto-git/
+    - export DEPLOYPATH=/home/timetowe/public_html/test/
     - /bin/cp index.php $DEPLOYPATH
