@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export REPOPATH=/home/timetowe/repositories/test2auto-git/*
-    - export SITEPATH=/home/yourdoma/public_html/test/
-    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
+    - export DEPLOYPATH=/home/yourdoma/public_html/test/
+    - /bin/cp * $DEPLOYPATH
